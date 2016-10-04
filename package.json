@@ -2,7 +2,7 @@
   "name": "redux-ramda",
   "version": "1.0.0",
   "description": "Ramda based functional helpers for Redux",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha -w",
@@ -10,7 +10,7 @@
     "prepublish": "npm run build",
     "build": "rm -rf lib/ && babel --out-dir lib/ src/"
   },
-  "author": "",
+  "author": "Dave Tonge",
   "license": "ISC",
   "dependencies": {
     "ramda": "^0.22.1"
