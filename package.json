@@ -1,0 +1,26 @@
+{
+  "name": "redux-ramda",
+  "version": "1.0.0",
+  "description": "Ramda based functional helpers for Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "lint": "eslint src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "@mft/eslint-config-momentumft": "^1.1.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015-loose": "^6.1.3",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "eslint": "^2.13.1",
+    "eslint-plugin-babel": "^3.1.0",
+    "mocha": "^3.1.0"
+  }
+}

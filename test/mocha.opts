@@ -1,0 +1,8 @@
+--reporter spec
+--ui bdd
+--compilers js:babel-register
+--timeout 20000
+--check-leaks
+--recursive
+--timeout 4000
+--colors
