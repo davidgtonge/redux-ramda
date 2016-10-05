@@ -1,6 +1,8 @@
 redux-ramda
 ===========
 
+[![Build Status](https://travis-ci.org/davidgtonge/redux-ramda.svg?branch=master)](https://travis-ci.org/davidgtonge/redux-ramda)
+
 Ramda based functional helpers for [redux](http://redux.js.org/)
 
 I like using the `cond` function from Ramda to describe a list of functions that can occur based on an array of predicates.
