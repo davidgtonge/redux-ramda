@@ -1,6 +1,6 @@
 {
   "name": "redux-ramda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ramda based functional helpers for Redux",
   "main": "lib/index.js",
   "scripts": {
