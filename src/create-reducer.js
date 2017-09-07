@@ -31,7 +31,7 @@ const createReducerSpec = compose(
 
 const createReducer = (initialState, spec) => {
   const reducer = createReducerSpec(spec)
-  return (state, action = {}) => reducer(action)(state)
+  return (state, action = {}) => reducer(action)(state || initialState)
 }
 
 export default createReducer
