@@ -29,9 +29,9 @@ const createReducerSpec = compose(
   map(ensureCondSpec)
 )
 
-const createReducer = curry((initialState, spec, state, action = {}) => {
-  state = (state) ? state : initialState
-  return createReducerSpec(spec)(action)(state)
-})
+const createReducer = (initialState, spec) => {
+  const reducer = createReducerSpec(spec)
+  return (state, action = {}) => reducer(action)(state || initialState)
+}
 
 export default createReducer
